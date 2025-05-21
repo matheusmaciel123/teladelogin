@@ -1,0 +1,56 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #64b1dd;
+    color: #2e312e;
+    background-image: url("fundo.jpg");
+    background-size: cover;
+ }
+ p{
+    font-weight: 700
+ }
+ form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c08c8c;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+ }
+ input:not([type="checkbox"]):not([type="radio"]){
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+ }
+ button{
+    background-color: #8cddd6;
+    border: 1px solid #0ea7d6;
+    border-radius: 5px;
+    padding: 2px;
+ }
+ .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+ }
+ .button-container{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ a{
+    font-size: 10px;
+    text-decoration: nome;
+    color: #161718;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
